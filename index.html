@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="formulario de inicio de sesión de negocios, proyecto personal de Daniel Hernández">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business Login Form</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/logo-ico.ico" type="image/x-icon">
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/87b8bff04b.js"></script>
+</head>
+
+<body>
+    <div class="content-main">
+        <div class="content-info">
+            <div class="info__tittle">
+                <h1>Manage Your Business Account</h1>
+            </div>
+            <div class="info__description">
+                <p>Donec dictum nisl nec mi lacinia, sed maximus tellus eleifend. Proin molestie cursus sapien ac
+                    eleifend.</p>
+            </div>
+            <div class="info__img"><img src="images/info__image.jpg" alt="Estadisticas"></div>
+        </div>
+        <div class="content-form">
+            <div class="form__tittle">
+                <h2>Login To your Account</h2>
+            </div>
+            <div class="form__description">
+                <p>Enter your details to login.</p>
+            </div>
+            <form action="#" method="POST" id="form-login" onsubmit="return false;">
+                <form action="#" method="POST" id="form-login">
+                    <label for="txtEmail">Email Adress</label>
+                    <div class="input-group">
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="Enter Your Email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <label for="txtpassword">Password</label>
+                    <div class="input-group">
+                        <input type="password" name="txtPassword" id="txtPassword" placeholder="Enter Your Password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input type="submit" value="Login">
+                </form>
+                <span class="form__info">By clicking login, you agree to our <a href="#">Terms & Conditions!</a></span>
+                <div class="empty"></div>
+                <span class="form__info ">Dont have an account? <a href="#">Register Here</a></span>
+                <div class="end"></div>
+        </div>
+    </div>
+</body>
+
+</html>
